@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>注册</title>
+        <script type="text/javascript" src="signlogin.js"></script>
+        <link href="signlogin.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="div1">
+            <div class="div2">
+                <h class="font">注册</h>
+                <h2 class="font2">用户名:<form><input  id="username" class="input1" type="text" 
+                    placeholder="只允许字母和数字"></form></h2>
+                <h2 class="font2" >密码:<form ><input id="password" class="input1" 
+                type="password"  placeholder="请输入密码，密码至少6位"></form></h2>
+                <h2 class="font2">请再次输入密码：<form  ><input  id="checkpwd"  class="input1" 
+                    type="password"  placeholder="请再次输入密码"></form></h2>
+                <h3 ><button id="sub" onclick="myclick()">confirm</button></h3>
+                <h4  id="response_msg2" class="response"></h4>
+                <br>
+                <br>
+                <h5 class="font">登录</h5>
+                <h5 class="font2">用户名：<form><input id="login_name" class="input1" type="text" 
+                    placeholder="请输入用户名"></form></h5>
+                <h5 class="font2">密码：<form><input id="pwd" class="input1" type="password"
+                         placeholder="请输入密码"></form></h5>
+                <h5><button id="sub2" onclick="login()">confirm</button></h5>
+                <h6 id="response_msg" class="response" ></h6>
+
+            </div>
+    
+        </div>
+    </body>
+</html>
